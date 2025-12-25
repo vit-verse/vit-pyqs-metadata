@@ -1,0 +1,41 @@
+name: Reconcile PYQ Metadata
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 3 * * *" # Daily at 03:00 UTC
+
+permissions:
+  contents: write
+
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install @google-cloud/storage
+
+      - name: Authenticate to GCP
+        env:
+          GCP_SERVICE_ACCOUNT_KEY: ${{ secrets.GCP_SERVICE_ACCOUNT_KEY }}
+        run: |
+          echo "$GCP_SERVICE_ACCOUNT_KEY" > key.json
+          export GOOGLE_APPLICATION_CREDENTIALS="$PWD/key.json"
+          node scripts/reconcile.js
+
+      - name: Commit & push changes
+        run: |
+          git config user.name "pyq-reconciler-bot"
+          git config user.email "bot@vitverse.app"
+          git add .
+          git commit -m "Reconcile PYQ metadata" || echo "No changes"
+          git push
