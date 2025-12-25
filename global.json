@@ -1,9 +1,6 @@
 {
-  "total_courses": 2,
-  "total_papers": 4,
-  "courses": [
-    "BITE410L",
-    "BITE410P"
-  ],
-  "last_updated": "2025-12-25T16:16:00.749Z"
+  "total_courses": 0,
+  "total_papers": 0,
+  "courses": [],
+  "last_updated": "2025-12-25T17:36:04.488Z"
 }
