@@ -1,0 +1,14 @@
+{
+  "type": "service_account",
+  "project_id": "vit-connect-app",
+  "private_key_id": "d4303915707580d24388bacfab211d7887ceb041",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCTT9MLVg17YSwg\ny/92HPROn7n93gdduRSVwqbwVqK/rE0mcWDulr4QlzZ5qZSnhkTh49W9a6zK1VHR\nYTjHMKaAAzuc0ZCWp6oSSullWBE+8AXL0j8fZrCpt/3f0F05VYG63o3ozloAptK2\nclZeRTXyAn1d4xhwwhE5nBman7qfLRHFjPXHx52JTH7ooLKTm/XqsqhNzYBSVnmG\n5IANrND/aKyFMtVGTr7GvczO/qPQm22LNSNSLYjljfnRPXKPHgcjy8FFJFnwon1U\nlzXbOECh87FUAI2EnTCjrYNMYasXO1aCiGKDWKCEcoHBHncFi4bW9QslDQwBMi/A\nZaNj7PpRAgMBAAECggEADuJXHtNaR9/U21h5TpgU2DfbzUqIgIABlDMndmuuhILW\nhb6Zbmn1OMxqgObxQe73WUKRt1Kgkhr1KhxyZe/kttT8yjbDbvFwZepDRE3eajdK\nwqIS5iuUSIWyZVGShcc9tSGlAYOOBPhWHICXeO1xyqrVO24Fa2k0X9eFn8GpU8lM\n9ziMIcnJMunDFUsewixO18yLR8Uuai8sst/D5tdTOGwDOWNuXi/R8qBfdGnblzd6\nwc6kvoHXWQ9U9r/TXegj8ZHU3QytwSnv9PwKnPKlkqohytV+b46VXxeGyaFGke6s\ngppriGPr5p5avhmFA4SfraQV4B8CYTLgOzfHnzZKpQKBgQDJ9YpXpsVarFz+Etq9\nxxpuMu7qih++Hd2KK1TzccP0wC9mNxb03IxcL4tbFnfUIKFiWzpN/0VjqYNwLLfB\nsa/T6eEzYDhIpBS0mBZJVggcIUvbABfvB6obmsV/7iSCmjmSEPmzJlPgXBMEZxVM\nNHsfPO7ZasELVgw3FrXnZJ6JFQKBgQC6ut9COsxtTfYCDjgoQ5FoyQpha9zq0DZx\niQbfsijcQbpHa6E8VWDDIL0WU3c4pdDkAOyYNxPgRKBifuxjUA75uGcVDkwAXzDA\nsDWq4oYTCQq2il7GP5g5IJIJc3r6apNk2Efr4k1kXdSgaKsXnspdGFjFuzqsSy7i\noeVc1biDTQKBgBGjnH2jV0FgJI8cXnaM2UYetLdPcQ5N1Xen6TeKDC9oSbuHvD2O\ntcOnc2h1QeoJH49ToHgHf6wAtjYp8bK9Ljo4By9RjBjsG9LaJbgqB3NNhS6Ph4ed\nB8J5dh6CUjYF+llDmkuHYXQLFq4fwsBxJP/JdqMOq+WtkkuNdD3Nj/sxAoGAEra3\nuUN7SVkO1pXmOuLKp92+FJVixoWnbyl0bubEAY70xEOdHRbRY7zcNmiXAi5cCP2u\nuHKMo2U9TaG6vxk+5vf8HLgaFc90a1s9haq+FRpK4JBtfyDQeKky+Y+BO6eCrhCe\n5J0BdJWSwaC7xNo9Hada/jYNY0cFo+Dlw7AHleECgYAGzN4ci3MAcgvznsn4TDfX\nStP9YSy4HmzVZjMACfVcj3gPm2E/k2Zip2NIbDo+1ORmguREQl2CFemGclokQYgv\nd+OBgGqijzYxF33/0AE1T77/2Oqk8i+6dhXA2Hx1l5KZTLUXExEoLnCnqrIRKfq3\nPUeDM5rUIFbLNZysFg3VpQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "pyq-reconciler@vit-connect-app.iam.gserviceaccount.com",
+  "client_id": "108508368521580188432",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/pyq-reconciler%40vit-connect-app.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
+
