@@ -12,17 +12,24 @@ async function run() {
   const [files] = await storage.bucket(BUCKET).getFiles();
 
   const papersByCourse = {};
+  const courseMap = {}; // courseCode -> courseTitle
   let totalPapers = 0;
 
   for (const file of files) {
     if (!file.name.endsWith(".pdf")) continue;
     if (file.name.startsWith("RAW_UPLOADS/")) continue;
 
-    const [courseFolder, exam, filename] = file.name.split("/");
-    if (!courseFolder || !exam || !filename) continue;
+    const parts = file.name.split("/");
+    if (parts.length < 3) continue;
+
+    const courseFolder = parts[0];
+    const exam = parts[1];
+    const filename = parts[2];
 
     const courseCode = courseFolder.split("-")[0];
     const courseTitle = courseFolder.replace(`${courseCode}-`, "");
+
+    courseMap[courseCode] = courseTitle;
 
     if (!papersByCourse[courseCode]) {
       papersByCourse[courseCode] = {
@@ -55,15 +62,12 @@ async function run() {
     }
   }
 
-  /* ---------- WRITE FRESH METADATA ---------- */
-
-  const courseCodes = [];
+  /* ---------- WRITE COURSE FILES ---------- */
 
   for (const [code, data] of Object.entries(papersByCourse)) {
     if (data.papers.length === 0) continue;
 
     data.last_updated = new Date().toISOString();
-    courseCodes.push(code);
 
     fs.writeFileSync(
       path.join(COURSES_DIR, `${code}.json`),
@@ -74,9 +78,9 @@ async function run() {
   /* ---------- WRITE GLOBAL ---------- */
 
   const global = {
-    total_courses: courseCodes.length,
+    total_courses: Object.keys(courseMap).length,
     total_papers: totalPapers,
-    courses: courseCodes.sort(),
+    courses: courseMap, // code -> title
     last_updated: new Date().toISOString()
   };
 
