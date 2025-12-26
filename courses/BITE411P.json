@@ -1,0 +1,18 @@
+{
+  "course_code": "BITE411P",
+  "course_title": "MachineLearning",
+  "papers": [
+    {
+      "paper_id": "BITE411P_CAT1_A1+TA1_2025-01-27_CH2024250503067",
+      "exam": "CAT1",
+      "slot": "A1+TA1",
+      "semester": "Winter2024-2025",
+      "exam_date": "2025-01-27",
+      "faculty": "DrRamkumarT",
+      "class_no": "CH2024250503067",
+      "file_url": "https://storage.googleapis.com/vit-pyqs/BITE411P-MachineLearning/CAT1/BITE411P-MachineLearning-CAT1-A1+TA1-Winter2024-2025-DrRamkumarT-CH2024250503067-2025-01-27.pdf",
+      "uploaded_at": "2025-12-26T11:29:36.716Z"
+    }
+  ],
+  "last_updated": "2025-12-26T11:29:36.727Z"
+}
