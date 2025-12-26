@@ -1,8 +1,9 @@
 {
-  "total_courses": 1,
-  "total_papers": 1,
+  "total_courses": 2,
+  "total_papers": 2,
   "courses": {
-    "BITE411P": "MachineLearning"
+    "BITE411P": "MachineLearning",
+    "BCSE204L": "Design and Analysis of Algorithms"
   },
-  "last_updated": "2025-12-26T11:29:38.494Z"
+  "last_updated": "2025-12-26T12:08:14.825Z"
 }
