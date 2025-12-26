@@ -1,10 +1,11 @@
 {
-  "total_courses": 3,
-  "total_papers": 3,
+  "total_courses": 4,
+  "total_papers": 4,
   "courses": {
     "BITE411P": "MachineLearning",
     "BCSE204L": "Design and Analysis of Algorithms",
-    "BCSE301L": "Software Engineering"
+    "BCSE301L": "Software Engineering",
+    "BSTS301P": "Advanced Competitive Coding – I"
   },
-  "last_updated": "2025-12-26T12:10:16.855Z"
+  "last_updated": "2025-12-26T12:20:11.894Z"
 }
