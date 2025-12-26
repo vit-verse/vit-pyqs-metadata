@@ -1,8 +1,6 @@
 {
-  "total_courses": 1,
-  "total_papers": 1,
-  "courses": [
-    "BCSE301L"
-  ],
-  "last_updated": "2025-12-26T11:26:24.067Z"
+  "total_courses": 0,
+  "total_papers": 0,
+  "courses": [],
+  "last_updated": "2025-12-26T11:26:25.585Z"
 }
