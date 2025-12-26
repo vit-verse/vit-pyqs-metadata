@@ -1,18 +1,6 @@
 {
   "course_code": "BCSE204L",
   "course_title": "Design and Analysis of Algorithms",
-  "papers": [
-    {
-      "paper_id": "BCSE204L_FAT_G2+TG2_57900-05-24_CH2025260102125",
-      "exam": "FAT",
-      "slot": "G2+TG2",
-      "semester": "Fall Semester 2025-26",
-      "exam_date": "57900-05-24",
-      "faculty": "SANKAR P",
-      "class_no": "CH2025260102125",
-      "file_url": "https://storage.googleapis.com/vit-pyqs/BCSE204L-DesignandAnalysisofAlgorithms/FAT/BCSE204L-DesignandAnalysisofAlgorithms-FAT-G2+TG2-FallSemester2025-26-SANKARP-CH2025260102125-57900-05-24.pdf",
-      "uploaded_at": "2025-12-26T05:13:32.349Z"
-    }
-  ],
-  "last_updated": "2025-12-26T05:13:32.349Z"
+  "papers": [],
+  "last_updated": "2025-12-26T05:58:43.518Z"
 }
