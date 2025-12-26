@@ -1,18 +1,6 @@
 {
   "course_code": "BCSE204L",
   "course_title": "Design and Analysis of Algorithms",
-  "papers": [
-    {
-      "paper_id": "BCSE204L_FAT_G2+TG2_2025-12-06_CH2025260102084",
-      "exam": "FAT",
-      "slot": "G2+TG2",
-      "semester": "Fall Semester 2025-26",
-      "exam_date": "2025-12-06",
-      "faculty": "REVATHI A R",
-      "class_no": "CH2025260102084",
-      "file_url": "https://storage.googleapis.com/vit-pyqs/BCSE204L-DesignandAnalysisofAlgorithms/FAT/BCSE204L-DesignandAnalysisofAlgorithms-FAT-G2+TG2-FallSemester2025-26-REVATHIAR-CH2025260102084-2025-12-06.pdf",
-      "uploaded_at": "2025-12-26T06:04:18.401Z"
-    }
-  ],
-  "last_updated": "2025-12-26T06:04:18.401Z"
+  "papers": [],
+  "last_updated": "2025-12-26T06:39:49.033Z"
 }
