@@ -1,18 +1,6 @@
 {
   "course_code": "BCSE355L",
   "course_title": "Cloud Architecture Design Temp",
-  "papers": [
-    {
-      "paper_id": "BCSE355L_FAT_B2+TB2_2025-11-20_CH2025260101675",
-      "exam": "FAT",
-      "slot": "B2+TB2",
-      "semester": "Fall Semester 2025-26",
-      "exam_date": "2025-11-20",
-      "faculty": "SANKARI M",
-      "class_no": "CH2025260101675",
-      "file_url": "https://storage.googleapis.com/vit-pyqs/BCSE355L-CloudArchitectureDesign/FAT/BCSE355L-CloudArchitectureDesign-FAT-B2+TB2-FallSemester2025-26-SANKARIM-CH2025260101675-2025-11-20.pdf",
-      "uploaded_at": "2025-12-26T05:34:26.463Z"
-    }
-  ],
-  "last_updated": "2025-12-26T05:34:26.463Z"
+  "papers": [],
+  "last_updated": "2025-12-26T05:58:45.625Z"
 }
