@@ -1,10 +1,9 @@
 {
-  "total_courses": 3,
-  "total_papers": 4,
+  "total_courses": 2,
+  "total_papers": 3,
   "courses": [
-    "BCSE209L",
     "BMAT101L",
     "BSTS301P"
   ],
-  "last_updated": "2025-12-26T06:39:49.940Z"
+  "last_updated": "2025-12-26T06:39:52.572Z"
 }
