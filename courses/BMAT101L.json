@@ -1,18 +1,6 @@
 {
   "course_code": "BMAT101L",
   "course_title": "Calculus",
-  "papers": [
-    {
-      "paper_id": "BMAT101L_CAT2_C1+TC1_2025-10-07_CH2025260101357",
-      "exam": "CAT2",
-      "slot": "C1+TC1",
-      "semester": "Fall Semester 2025-26",
-      "exam_date": "2025-10-07",
-      "faculty": "POULOMI DE",
-      "class_no": "CH2025260101357",
-      "file_url": "https://storage.googleapis.com/vit-pyqs/BMAT101L-Calculus/CAT2/BMAT101L-Calculus-CAT2-C1+TC1-FallSemester2025-26-POULOMIDE-CH2025260101357-2025-10-07.pdf",
-      "uploaded_at": "2025-12-26T06:12:04.301Z"
-    }
-  ],
-  "last_updated": "2025-12-26T06:12:04.301Z"
+  "papers": [],
+  "last_updated": "2025-12-26T06:39:58.505Z"
 }
