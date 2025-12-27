@@ -1,18 +1,13 @@
 {
   "course_code": "BCSE301L",
-  "course_title": "Software Engineering",
+  "course_title": "SoftwareEngineering",
   "papers": [
     {
-      "paper_id": "BCSE301L_FAT_F2+TF2_2025-11-29_CH2025260101457",
+      "paper_id": "BCSE301L-SoftwareEngineering-FAT-F2+TF2-FallSemester2025-26-A.KILAVARASI-CH2025260101457-2025-11-29",
       "exam": "FAT",
-      "slot": "F2+TF2",
-      "semester": "Fall Semester 2025-26",
-      "exam_date": "2025-11-29",
-      "faculty": "A. K ILAVARASI",
-      "class_no": "CH2025260101457",
       "file_url": "https://storage.googleapis.com/vit-pyqs/BCSE301L-SoftwareEngineering/FAT/BCSE301L-SoftwareEngineering-FAT-F2+TF2-FallSemester2025-26-A.KILAVARASI-CH2025260101457-2025-11-29.pdf",
-      "uploaded_at": "2025-12-26T12:10:15.870Z"
+      "file_name": "BCSE301L-SoftwareEngineering-FAT-F2+TF2-FallSemester2025-26-A.KILAVARASI-CH2025260101457-2025-11-29.pdf"
     }
   ],
-  "last_updated": "2025-12-26T12:10:15.870Z"
+  "last_updated": "2025-12-27T03:57:17.269Z"
 }
